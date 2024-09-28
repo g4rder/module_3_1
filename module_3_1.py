@@ -15,6 +15,7 @@ def is_contains(string, is_list):
     for i in is_list:
         if i.lower() == string.lower():
             _flag = True
+            break
         else:
             _flag = False
     count_calls()
